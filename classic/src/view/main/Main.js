@@ -15,7 +15,8 @@ Ext.define('MiniDashboard.view.main.Main', {
 
         'MiniDashboard.view.main.MainController',
         'MiniDashboard.view.main.MainModel',
-        'MiniDashboard.view.main.List'
+        'MiniDashboard.view.main.List',
+        'MiniDashboard.view.dashboard.Dashboard'
     ],
 
     controller: 'main',
@@ -80,14 +81,12 @@ Ext.define('MiniDashboard.view.main.Main', {
         iconCls: 'fa-home',
         // The following grid shares a store with the classic version's grid as well!
         items: [{
-            xtype: 'mainlist'
+            xtype: 'home-dashboard'
         }]
     }, {
         title: 'Users',
         iconCls: 'fa-user',
-        bind: {
-            html: '{loremIpsum}'
-        }
+        html: '{loremIpsum}'
     }, {
         title: 'Groups',
         iconCls: 'fa-users',
