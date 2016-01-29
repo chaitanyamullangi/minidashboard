@@ -1,0 +1,32 @@
+adding the dashboard and parts files
+
+# Please enter the commit message for your changes. Lines starting
+# with '#' will be ignored, and an empty message aborts the commit.
+# Explicit paths specified without -i or -o; assuming --only paths...
+#
+# Committer: unknown <vvairava@VVAIRAVA-LAP.oradev.oraclecorp.com>
+#
+# On branch master
+# Your branch is up-to-date with 'origin/master'.
+#
+# Changes to be committed:
+#	new file:   classic/src/view/dashboard/Dashboard.js
+#	new file:   classic/src/view/dashboard/parts/InventoryChart.js
+#	new file:   classic/src/view/dashboard/parts/LineChart.js
+#	new file:   classic/src/view/dashboard/parts/LoremPanel.js
+#
+# Changes not staged for commit:
+#	modified:   .sencha/workspace/sencha.cfg
+#	modified:   app.json
+#	modified:   bootstrap.css
+#	modified:   bootstrap.js
+#	modified:   classic.json
+#	modified:   classic/src/view/main/Main.js
+#	modified:   modern.json
+#	modified:   sass/example/bootstrap.js
+#	modified:   sass/example/bootstrap.json
+#
+# Untracked files:
+#	overrides/
+#	sass/example/example.css
+#
